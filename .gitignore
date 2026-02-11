@@ -1,0 +1,31 @@
+# === IDE / Среда разработки ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS / Системные файлы ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Arduino / ESP32 build artifacts ===
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.o
+
+# === Python virtual environments ===
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# === Temporary files / Временные файлы ===
+*.tmp
+*.bak
+*.log

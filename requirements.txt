@@ -1,0 +1,43 @@
+# ============================================================
+# Зависимости проекта / Project Dependencies
+# ============================================================
+#
+# Платформа / Platform:
+#   - ESP32-C3 (Arduino framework)
+#
+# Среда разработки / Development environment:
+#   - Arduino IDE >= 2.0
+#     https://www.arduino.cc/en/software
+#   - или / or PlatformIO
+#     https://platformio.org/
+#
+# Менеджер плат / Board manager:
+#   - ESP32 by Espressif Systems >= 2.0.0
+#     URL: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+#
+# ============================================================
+# Библиотеки Arduino / Arduino Libraries
+# ============================================================
+#
+# Установите через менеджер библиотек Arduino IDE:
+# Install via Arduino IDE Library Manager:
+#
+# FastLED >= 3.6.0
+#   - Управление адресными светодиодами (WS2812B, NeoPixel и др.)
+#   - Addressable LED control (WS2812B, NeoPixel, etc.)
+#   - https://github.com/FastLED/FastLED
+#
+# ============================================================
+# Установка через PlatformIO / PlatformIO installation
+# ============================================================
+#
+# Если вы используете PlatformIO, добавьте в platformio.ini:
+# If using PlatformIO, add to platformio.ini:
+#
+#   [env:esp32c3]
+#   platform = espressif32
+#   board = esp32-c3-devkitm-1
+#   framework = arduino
+#   lib_deps =
+#       fastled/FastLED@^3.6.0
+#
