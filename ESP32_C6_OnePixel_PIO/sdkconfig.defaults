@@ -1,0 +1,7 @@
+#
+# Уберём предупреждение про размер флеша (если ваша плата реально 2MB).
+# Если у вас 4/8/16MB — просто поменяйте значение.
+#
+CONFIG_ESPTOOLPY_FLASHSIZE_2MB=y
+CONFIG_ESPTOOLPY_FLASHSIZE="2MB"
+

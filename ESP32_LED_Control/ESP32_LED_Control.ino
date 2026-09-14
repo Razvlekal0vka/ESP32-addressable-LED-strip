@@ -27,10 +27,10 @@
 
 // === Настройки ленты / Strip configuration ===
 #define LED_PIN     8        // Пин подключения ленты (можно изменить) / Data pin (can be changed)
-#define NUM_LEDS    144      // Количество светодиодов / Number of LEDs
+#define NUM_LEDS    20      // Количество светодиодов / Number of LEDs
 #define LED_TYPE    WS2812B  // Тип светодиодов / LED type
 #define COLOR_ORDER GRB      // Порядок цветов (может быть GRB или RGB) / Color order (GRB or RGB)
-#define BRIGHTNESS  100      // Яркость (0-255) / Brightness (0-255)
+#define BRIGHTNESS  50      // Яркость (0-255) / Brightness (0-255)
 
 // Создаем массив светодиодов / Create LED array
 CRGB leds[NUM_LEDS];

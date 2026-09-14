@@ -12,6 +12,7 @@ desktop.ini
 
 # === Arduino / ESP32 build artifacts ===
 build/
+.pio/
 *.elf
 *.bin
 *.hex
